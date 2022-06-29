@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <!--Adding CSS StyleSheet-->
+    <link rel="stylesheet" href="CSS/reg_style.css">
+
+    <!--Adding JS-->
+    <script src="JS/reg.js"></script>
+
+    <!--Adding Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!--Adding Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header-container">
+        <div class="back-btn">
+            <h5><i class="fa-solid fa-arrow-left"></i><a href="index.html">Back to Home</a></h5>
+        </div>
+        <div class="header-title">
+            <h1>Registration</h1>
+        </div>
+    </div>
+
+    <form action="" method="" onsubmit="return formValidation()">
+        <table>
+            <tr>
+                <td>
+                    <label for="fname">First Name: </label>
+                </td>
+                <td>
+                    <input type="text" name="firstname" id="ifname">
+                    <span id="efname"></span>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="lname">Last Name: </label>
+                </td>
+                <td>
+                    <input type="text" name="lastname" id="ilname">
+                    <span id="elname"></span>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email: </label>
+                </td>
+                <td>
+                    <input type="email" name="email" id="iemail" required>
+                    <span id="e-email"></span>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="mobile">Mobile: </label>
+                </td>
+                <td>
+                    <input type="text" name="mob" id="imob">
+                    <span id="emob"></span>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Password: </label>
+                </td>
+                <td>
+                    <input type="text" name="pass" id="ipass">
+                    <span id="epass"></span>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="confirm-pass">Confirm Password: </label>
+                </td>
+                <td>
+                    <input type="text" name="confirm-pass" id="iconfirm-pass">
+                    <span id="econfirm-pass"></span>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="certificate">Certificate: </label>
+                </td>
+                <td>
+                    <input type="checkbox" name="check-certificate" id="pec" value="PEC">
+                    <label>PEC</label>
+                    <input type="checkbox" name="check-certificate" id="jsc" value="JSC">
+                    <label>JSC</label>
+                    <input type="checkbox" name="check-certificate" id="ssc" value="SSC">
+                    <label>SSC</label>
+                    <input type="checkbox" name="check-certificate" id="hsc" value="HSC">
+                    <label>HSC</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Gender: </label>
+                </td>
+                <td>
+                    <input type="radio" name="gender" value="male">
+                    <label>Male</label>
+                    <input type="radio" name="gender" value="female">
+                    <label>Female</label>
+                    <input type="radio" name="gender" value="others">
+                    <label>Others</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="board-name">Board Name: </label>
+                </td>
+                <td>
+                    <select name="board-name" id="iboard-name">
+                        <option value="">Choose a Board</option>
+                        <option value="Dhaka">Dhaka</option>
+                        <option value="Sylhet">Sylhet</option>
+                        <option value="Chottogram">Chottogram</option>
+                        <option value="Comilla">Comilla</option>
+                        <option value="Rajshahi">Rajshahi</option>
+                        <option value="Barishal">Barishal</option>
+                        <option value="Mymensingh">Mymensingh</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">DOB: </label>
+                </td>
+                <td>
+                    <input type="date" name="dob" id="idob">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="pic-up">Upload Photo: </label></td>
+                <td><input type="file" name="pic-upload"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" name="submit-button" id="sub-btn" value="Register">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p id="ha_section-1">Already have an Account ?</p>
+                </td>
+                <td>
+                    <a id="ha_section-2" href="login.html" target="_blank">Log in</a>
+                </td>
+            </tr>
+        </table>
+    </form><br>
+</body>
+
+</html>

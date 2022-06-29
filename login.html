@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!--Adding CSS StyleSheet-->
+    <link rel="stylesheet" href="CSS/login_style.css">
+
+    <!--Adding Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!--Adding Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h5><i class="fa-solid fa-arrow-left"></i><a href="index.html">Back to Home</a></h5>
+    <h1>Log in</h1>
+    <form action="#">
+        <table>
+            <tr>
+                <td>
+                    <label for="email">Email: </label>
+                </td>
+                <td>
+                    <input type="email" name="email" id="iemail" required>
+                    <span id="e-email"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Password: </label>
+                </td>
+                <td>
+                    <input type="text" name="pass" id="ipass" required>
+                    <span id="epass"></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" name="submit-button" id="sub-btn" value="Log in">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p id="ha_section-1">Do not have an Account ?</p>
+                </td>
+                <td>
+                    <a id="ha_section-2" href="registration.html" target="_blank">Register Now</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

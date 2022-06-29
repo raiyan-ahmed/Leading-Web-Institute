@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../Images/Reg&Log_cover.jpg);
+    background-size: cover;
+}
+
+h1 {
+    width: 40%;
+    height: 40px;
+    color: blanchedalmond;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(97, 49, 16);
+    padding: 12px;
+}
+
+h5 a {
+    text-decoration: none;
+    color: deepskyblue;
+    font-size: 17px;
+}
+
+h5 i {
+    color: deepskyblue;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 17px;
+}
+
+table {
+    margin: 0 auto;
+    background-color: rgb(8, 8, 8, 0.5);
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+tr,
+td {
+    padding: 5px;
+}
+
+#sub-btn {
+    margin-left: 240px;
+    margin-top: 20px;
+    background-color: rgb(148, 85, 72);
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#sub-btn:hover {
+    cursor: pointer;
+    background-color: rgb(120, 143, 184);
+}
+
+#ha_section-1 {
+    color: lavender;
+    font-weight: bold;
+}
+
+#ha_section-2 {
+    color: deepskyblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#ha_section-2:hover {
+    font-size: 19px;
+}
